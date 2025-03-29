@@ -1,0 +1,53 @@
+/* 기본 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.card {
+    background-color: white;
+}
+
+input {
+    height: 45px;
+}
+
+button {
+    height: 45px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+li.completed {
+    background-color: #e9ecef;
+    text-decoration: line-through;
+}
+
+li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
